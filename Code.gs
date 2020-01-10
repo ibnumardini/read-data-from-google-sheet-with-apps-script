@@ -2,4 +2,6 @@
 
 function readData() {
     
+    var ss = SpreadsheetApp.getActiveSheet(); // this variable, for get active spreadsheet
+    
 }
