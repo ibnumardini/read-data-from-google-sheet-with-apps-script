@@ -3,5 +3,10 @@
 function readData() {
     
     var ss = SpreadsheetApp.getActiveSheet(); // this variable, for get active spreadsheet
+
+    var fRow = 2; //start row
+    var fColumn = 2; //start  coloumn
+    var lRow = ss.getLastRow(); //end row
+    var fRow = ss.getLastColumn(); //endcoloumn
     
 }
