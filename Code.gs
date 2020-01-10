@@ -7,6 +7,7 @@ function readData() {
     var fRow = 2; //start row
     var fColumn = 2; //start  coloumn
     var lRow = ss.getLastRow(); //end row
-    var fRow = ss.getLastColumn(); //endcoloumn
-    
+    var lColumn = ss.getLastColumn(); //end coloumn
+
+    var rows = ss.getRange(fRow, fColumn, lRow, lColumn).getValues();
 }
