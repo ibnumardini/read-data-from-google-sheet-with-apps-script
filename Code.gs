@@ -16,3 +16,5 @@ function readData() {
         Logger.log(data); // this for print to log
     }
 }
+
+// thanks :)
